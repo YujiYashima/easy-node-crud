@@ -1,7 +1,7 @@
 {
   "name": "easy-node-crud",
   "version": "1.0.0",
-  "description": "",
+  "description": "CRUD quick and easy, made in node and javascript, using a library called adminBro fully customizable.",
   "main": "admin.js",
   "dependencies": {
     "@admin-bro/express": "^3.1.0",
@@ -16,9 +16,18 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "crud": "node admin.js"
   },
-  "keywords": [],
+  "keywords": [
+    "crud",
+    "CRUD",
+    "node",
+    "easy",
+    "adminBro",
+    "mongo",
+    "mongoose",
+    "express"
+  ],
   "author": "Yuji Yashima",
   "license": "MIT"
 }
